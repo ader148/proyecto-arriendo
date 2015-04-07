@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">"Arriendo "</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="abierto">abierto</string>
+    <string name="cerrado">Cerrado</string>
+
+    <dimen name="texto_principal">50dp</dimen>
+    <dimen name="margen_1">10dp</dimen>
+    <dimen name="imagen_principal">140dp</dimen>
+    <dimen name="margen_2">50dp</dimen>
+
+
+
+    <array name="ciudades">
+        <item>Popayan</item>
+        <item>Pasto</item>
+        <item>Barranquilla</item>
+        <item>Huila</item>
+        <item>Bogota</item>
+        <item>Medellin</item>
+        <item>Cali</item>
+        <item>Pereira</item>
+        <item>Manizales</item>
+        <item>Putumayo</item>
+    </array>
+
+
+    <array name="tipo_inmueble">
+        <item>Casa</item>
+        <item>Habitacion</item>
+        <item>Local comercial</item>
+    </array>
+
+
+    <array name="Rango_de_precios">
+        <item>$100-$400</item>
+        <item>$400-$700</item>
+        <item>$700-$1.000.000</item>
+        <item>$1.000.000-$1.300.000</item>
+        <item>$1.300.000-$1.600.000</item>
+        <item>$1.600.000-$1.900.000</item>
+        <item>$2.000.000 + ...</item>
+
+    </array>
+
+
+
+    <string-array name="descripciones_casas">
+      <item>Acogedora casa rural, situada a las afueras de la ciudad.
+             Económica, con la mejor relación calidad precio.</item>
+        <item>Increible oferta casa con parqueadero, dos pisos, amplias zonas verdes ubicada en el barrio el recuerdo.</item>
+        <item>Increible oferta casa con parqueadero, dos pisos, amplias zonas verdes ubicada en el barrio el recuerdo.</item>
+        <item>linda casa</item>
+    </string-array>
+
+
+
+    <string-array name="tipo">
+        <item>Casa</item>
+        <item>Apartamento</item>
+        <item>Negocio</item>
+        <item>Habitacion</item>
+        <item>Oficina</item>
+
+    </string-array>
+
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+</resources>

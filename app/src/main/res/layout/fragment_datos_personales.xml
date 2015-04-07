@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.universidadcauca.movil.fragmentos.datos_personales"
+    android:background="#FFF7C3"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Perfil"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:textSize="30dp"
+        android:textIsSelectable="false"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:id="@+id/perfil"
+        android:background="#000000"
+        android:layout_marginBottom="10dp"
+
+        />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/imagen_perfil_facebbok"
+        android:background="@drawable/redondear_image_perfil"
+
+
+       />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+
+           />
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/redondear_edittex"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Apellido"
+            android:textSize="15dp"
+            android:textColor="#000000"
+
+           />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/redondear_edittex"
+            android:textSize="20dp"
+   />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefono"
+        android:textSize="15dp"
+        android:textColor="#000000"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/redondear_edittex"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="15dp"
+        android:textColor="#000000"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/redondear_edittex"
+        android:textSize="20dp"
+        />
+
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/botonGuardar"
+        android:background="@drawable/estilo_boton"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/Subirfotos"
+        android:layout_toEndOf="@+id/Subirfotos"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:drawableLeft="@drawable/ic_action_content_save"
+
+        />
+
+
+
+</LinearLayout>

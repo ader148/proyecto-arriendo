@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.universidadcauca.movil.fragmentos.favoritos"
+    android:background="#FFF7C3"
+    android:padding="10dp"
+    >
+
+
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Favoritos"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:textSize="30dp"
+        android:textIsSelectable="false"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:id="@+id/publica"
+        android:background="#000000"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/publica"
+        android:id="@+id/imagen_1"
+        android:src="@drawable/casa_4"
+        />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/imagen_2"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:src="@drawable/icon_foto_mas"
+
+        android:id="@+id/imageButton" />
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imagen_1"
+        android:layout_alignTop="@+id/imagen_1"
+        android:text="Acogedora casa rural, situada a las afueras de la ciudad.
+ Económica, con la mejor relación calidad precio."
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="left"
+        android:textColor="#000000"
+        android:layout_above="@+id/imageButton"
+        android:padding="10dp"
+        />
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imagen_1"
+        android:id="@+id/imagen_2"
+        android:src="@drawable/casa_2"
+        />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/imagen_3"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:src="@drawable/icon_foto_mas"
+        android:id="@+id/imageButton_2" />
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imagen_2"
+        android:layout_alignTop="@+id/imagen_2"
+        android:text="Increible oferta casa con parqueadero, dos pisos, amplias zonas verdes ubicada en el barrio el recuerdo."
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="left"
+        android:textColor="#000000"
+        android:id="@+id/textView"
+        android:padding="10dp"
+        android:layout_above="@+id/imageButton_2" />
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imagen_2"
+        android:id="@+id/imagen_3"
+        android:src="@drawable/casa_3"
+        />
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imagen_3"
+        android:layout_alignTop="@+id/imagen_3"
+        android:text="Increible oferta casa con parqueadero, dos pisos, amplias zonas verdes ubicada en el barrio el recuerdo."
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="left"
+        android:textColor="#000000"
+        android:layout_above="@+id/imageButton_3"
+        android:padding="10dp"
+        android:id="@+id/textView2" />
+
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/icon_foto_mas"
+        android:id="@+id/imageButton_3"
+        android:layout_alignBottom="@+id/imagen_3"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+
+</RelativeLayout>

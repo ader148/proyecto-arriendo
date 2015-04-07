@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+    >
+
+   
+    <ImageView
+       android:id="@+id/casas"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/casa"
+        />
+    
+    <TextView
+        android:background="#FFF7C3"
+        android:id="@+id/descripcion"
+        android:layout_width="175dp"
+        android:layout_height="150dp"
+        android:layout_toRightOf="@id/casas"
+        android:gravity="center"
+        android:text="esta es la descripcion"
+        android:textColor="#000000"
+       />
+    
+    <TextView
+        android:id="@+id/tipo"
+        android:background="#FFF7C3"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_toRightOf="@+id/descripcion"
+        android:text="este es el tipo"
+        android:gravity="center"
+        android:textColor="#000000"
+        />
+    
+    
+</RelativeLayout>

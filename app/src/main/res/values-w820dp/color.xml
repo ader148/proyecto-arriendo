@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="boton">#ffffffaa</color>
+    <color name="fondo">#FFF7C3</color>
+    <color name="verde">#ffbaff57</color>
+    <color name="negro">#ff121808</color>
+    <color name="blanco">#fffff9fb</color>
+
+
+</resources>

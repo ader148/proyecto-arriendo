@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.universidadcauca.movil.fragmentos.Buscar"
+    android:background="#FFF7C3"
+    android:padding="20dp"
+    android:orientation="vertical"
+    >
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:textSize="30dp"
+        android:textIsSelectable="false"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:id="@+id/buscar"
+        android:background="#000000"
+
+        />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Ciudad"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/titulo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#FFFFFFAA"
+        android:entries="@array/ciudades"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de inmueble "
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/textInmueble"
+        android:paddingTop="15dp"
+        />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_2"
+        android:layout_below="@+id/textInmueble"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#FFFFFFAA"
+        android:entries="@array/tipo_inmueble"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rango de Precio "
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/textRangoPrecio"
+        android:layout_below="@+id/spinnerInmueble"
+        android:paddingTop="15dp"
+        />
+
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_3"
+        android:layout_below="@+id/textRangoPrecio"
+        android:background="#FFFFFFAA"
+        android:entries="@array/Rango_de_precios"
+
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Buscar Clasificado Por Codigo"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/buscarcodigo"
+        android:layout_below="@+id/spinnerPrecio"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="false"
+        android:paddingTop="15dp"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/redondear_edittex"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:id="@+id/botonGuardar"
+        android:background="@drawable/estilo_boton"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/Subirfotos"
+        android:layout_toEndOf="@+id/Subirfotos"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/icon_buscar"
+        />
+
+</LinearLayout>

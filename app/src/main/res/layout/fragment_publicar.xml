@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.universidadcauca.movil.fragmentos.publicar"
+    android:background="#FFF7C3"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Publica"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:textSize="30dp"
+        android:textIsSelectable="false"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:id="@+id/publica"
+        android:background="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de inmueble "
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/textInmueble"
+        android:layout_below="@+id/publica"
+        android:paddingTop="15dp"
+        />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:id="@+id/spinner_4"
+        android:layout_below="@+id/textInmueble"
+        android:background="#ffffffaa"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/precio"
+        android:layout_below="@+id/spinner_4"
+        android:paddingTop="15dp"
+        />
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/redondear_edittex"
+        android:textSize="30dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/Descripcion"
+        android:layout_below="@+id/PonerPrecio"
+        android:paddingTop="15dp"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/redondear_edittex"
+        android:textSize="30dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subir Fotos"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/Subirfotos"
+        android:layout_below="@+id/PonerDescripcion"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/botonGuardar"
+        android:background="@drawable/estilo_boton"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/Subirfotos"
+        android:layout_toEndOf="@+id/Subirfotos"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_action_content_save"
+       />
+
+
+
+
+</LinearLayout>
